@@ -3,16 +3,172 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="Style/styles.css">
+   <link rel="stylesheet" type="text/css" href="Style/styles.css">
     <title> Online Shop🛒</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Satisfy&family=Sometype+Mono:ital@1&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/823caa4f71.js" crossorigin="anonymous"></script>
+<style>
+        .stars {
+            display: inline-block;
+        }
+        .stars input[type="radio"] {
+            display: none;
+        }
+        .stars label {
+            font-size: 30px;
+            color: #ffd700;
+            padding: 5px;
+            cursor: pointer;
+        }
+    </style>
   </head>
-  <body>
-    <h1>Hello, world!</h1>
+  <body style ="background-color: #EBECEE;font-size: 16px; color:#212121">
+   <section>
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid d-flex justify-content-center">
+    <span class="navbar-text text-center text-uppercase mt-2 fs-2 fw-semibold letter-spacing-4" style="font-family: 'Satisfy', cursive;">
+      Natural & Organic
+      <i class="fa-brands fa-pagelines" style="color: #097807; font-size: 35px;"></i>
+    </span>
+  </div>
+</nav>
+    </span>
+  </div>
+</nav>
+   </section>
+<nav class="navbar bg-body-tertiary">
+<div class="container-fluid d-flex flex-column justify-content-end"></div>
+    <div>
+      <i class="fa-solid fa-house" style="color: #0a5ae6; font-size: 35px;"></i>
+      <i class="fa-solid fa-heart" style="color: #fb041d; font-size: 35px;"></i>
+      <i class="fa-solid fa-cart-shopping" style="color: #656667; font-size: 35px;"></i>
+    </div>
+   
+      <a class="navbar-brand" href="#">Home</a>
+      <a class="navbar-brand" href="#">Favorites</a>
+      <a class="navbar-brand" href="#">Cart</a>
+    </div>
+   
+      <form class="d-flex">
+        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<div class="container">
+        <!-- Categories -->
+        <h2>Categories</h2>
+        <ul>
+            <li><a href="#" class="category-link" data-category="electronics">Electronics</a></li>
+            <li><a href="#" class="category-link" data-category="clothing">Clothing</a></li>
+            <li><a href="#" class="category-link" data-category="home">Home</a></li>
+            <li><a href="#" class="category-link" data-category="sports">Sports</a></li>
+            <li><a href="#" class="category-link" data-category="books">Books</a></li>
+            <li><a href="#" class="category-link" data-category="toys">Toys</a></li>
+        </ul>
+
+        <!-- Products -->
+        <div id="products-container">
+            <div class="products" data-category="electronics">
+                <!-- Electronics Products Go Here -->
+            </div>
+            <div class="products" data-category="clothing">
+                <!-- Clothing Products Go Here -->
+            </div>
+            <div class="products" data-category="home">
+                <!-- Home Products Go Here -->
+            </div>
+            <div class="products" data-category="sports">
+                <!-- Sports Products Go Here -->
+            </div>
+            <div class="products" data-category="books">
+                <!-- Books Products Go Here -->
+            </div>
+            <div class="products" data-category="toys">
+                <!-- Toys Products Go Here -->
+            </div>
+        </div>
+    </div>
+
+            <h2>Featured Products</h2>
+        <div id="featured-products">
+            <!-- Featured Products Go Here -->
+        </div>
+
+        <!-- Products -->
+        <div id="products-container">
+            <div class="products" data-category="electronics">
+                <!-- Electronics Products Go Here -->
+            </div>
+            <div class="products" data-category="clothing">
+                <!-- Clothing Products Go Here -->
+            </div>
+            <div class="products" data-category="home">
+                <!-- Home Products Go Here -->
+            </div>
+            <div class="products" data-category="sports">
+                <!-- Sports Products Go Here -->
+            </div>
+            <div class="products" data-category="books">
+                <!-- Books Products Go Here -->
+            </div>
+            <div class="products" data-category="toys">
+                <!-- Toys Products Go Here -->
+            </div>
+        </div>
+    </div>
+
+  
+ <div class="container">
+        <!-- Your items and cards here -->
+
+        <!-- Customer Reviews Link -->
+        <div class="text-center mt-5">
+            <a href="#customer-reviews">Customer Reviews</a>
+        </div>
+    </div>
+    <div class="text-center mt-3">
+            <div class="stars">
+                <input type="radio" name="rating" id="star5" value="5" />
+                <label for="star5">&#9733;</label>
+                <input type="radio" name="rating" id="star4" value="4" />
+                <label for="star4">&#9733;</label>
+                <input type="radio" name="rating" id="star3" value="3" />
+                <label for="star3">&#9733;</label>
+                <input type="radio" name="rating" id="star2" value="2" />
+                <label for="star2">&#9733;</label>
+                <input type="radio" name="rating" id="star1" value="1" />
+                <label for="star1">&#9733;</label>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <footer class="footer bg-success text-light text-center py-3 fixed-bottom opacity-75">
+  <div class="container">
+    <span style="margin-left: 50px;">CONTACT US</span>
+   <span style="margin-left: 50px;">ABOUT US</span>
+  </div>
+</footer>
+ <script>
+        // JavaScript to show/hide product categories
+        const categoryLinks = document.querySelectorAll('.category-link');
+        const productsContainers = document.querySelectorAll('.products');
+
+        categoryLinks.forEach((link) => {
+            link.addEventListener('click', (event) => {
+                event.preventDefault();
+                const category = link.getAttribute('data-category');
+                productsContainers.forEach((container) => {
+                    container.style.display = 'none';
+                });
+                const selectedContainer = document.querySelector(`.products[data-category="${category}"]`);
+                selectedContainer.style.display = 'block';
+            });
+        });
+    </script>
   </body>
 </html>

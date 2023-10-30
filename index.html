@@ -40,18 +40,26 @@
 </nav>
    </section>
 <nav class="navbar bg-body-tertiary">
-<div class="container-fluid d-flex flex-column justify-content-end"></div>
-    <div>
-      <i class="fa-solid fa-house" style="color: #0a5ae6; font-size: 35px;"></i>
-      <i class="fa-solid fa-heart" style="color: #fb041d; font-size: 35px;"></i>
-      <i class="fa-solid fa-cart-shopping" style="color: #656667; font-size: 35px;"></i>
+   <div id="myCustomNav" class="container-fluid d-flex flex-column justify-content-end custom-nav"></div>
+        <div class="row">
+            <div class="col text-center">
+                <i class="fa-solid fa-house" style="color: #0a5ae6; font-size: 35px;"></i>
+                <br>
+                <a class="navbar-brand" href="#">Home</a>
+            </div>
+            <div class="col text-center">
+                <i class="fa-solid fa-heart" style="color: #fb041d; font-size: 35px;"></i>
+                <br>
+                <a class="navbar-brand" href="#">Favorites</a>
+            </div>
+            <div class="col text-center">
+                <i class="fa-solid fa-cart-shopping" style="color: #656667; font-size: 35px;"></i>
+                <br>
+                <a class="navbar-brand" href="#">Cart</a>
+            </div>
+        </div>
     </div>
-   
-      <a class="navbar-brand" href="#">Home</a>
-      <a class="navbar-brand" href="#">Favorites</a>
-      <a class="navbar-brand" href="#">Cart</a>
-    </div>
-   
+</nav>
       <form class="d-flex">
         <input class="form-control" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>

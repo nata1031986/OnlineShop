@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-size: border-box;
+}
+.navbar-brand {
+  font-display: 3rem;
+  color: #5e3b2b;
+  font-family: "Sometype Mono", monospace;
+  font-weight: bold;
+}
+.navbar-brand:hover {
+  color: black;
+}
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #5e3b2b;
+  text-transform: uppercase;
+  font-family: "Sometype Mono", monospace;
+}
+.nav-link:hover {
+  color: #c3ab96;
+}
+.search {
+  height: 40px;
+  width: 80%;
+  border-radius: 50px;
+  outline: none;
+  border: 2px solid #5e3b2b;
+  margin-right: -35px;
+  font-family: "Sometype Mono", monospace;
+}
+.btn0 {
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border: none;
+  background: #c3ab96;
+  color: #5e3b2b;
+  font-weight: bold;
+  border-radius: 60px;
+  font-family: "Sometype Mono", monospace;
+}
+.btn0:hover {
+  background-color: #e9e2da;
+}
+.main {
+  background: url("images/pic2.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-position: 50% 50%;
+}
+#main-heading {
+  font-size: 25px;
+  font-family: "Sometype Mono", monospace;
+  font-weight: bold;
+  background-color: #eae3db;
+  padding: 40px 40px 40px 40px;
+  border-radius: 50px;
+}
+#explore-button {
+  height: 50px;
+  width: 40%;
+  border: 2px solid #5e3b2b;
+  background: #c3ab96;
+  color: #5e3b2b;
+  font-weight: bold;
+  font-family: "Sometype Mono", monospace;
+  font-size: 25px;
+  border-radius: 60px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+#explore-button:hover {
+  background-color: #eae3db;
+}
+@media (max-width: 768px) {
+  #main-heading {
+    font-size: 19px;
+  }
+}
+
+#explore-button {
+  width: 70%;
+  font-size: 15px;
+}
+
+#ClickForMore {
+  width: 100%;
+}
+
+#submit-button {
+  font-size: 15px;
+  width: 100%;
+}
+}
+h6 {
+  font-family: "Sometype Mono", monospace;
+}
+.second {
+  background: #cbb9a8;
+}
+.third {
+  background: #40251a;
+  color: white;
+  font-family: "Sometype Mono", monospace;
+}
+#ClickForMore {
+  height: 45px;
+  width: 35%;
+
+  background: white;
+  color: #5e3b2b;
+  font-weight: bold;
+  font-family: "Sometype Mono", monospace;
+  border-radius: 60px;
+  text-align: center;
+  border-color: #5e3b2b;
+}
+#ClickForMore:hover {
+  background: #c3ab96;
+  transition: 0.25s;
+}
+#custom-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+h5 {
+  font-family: "Sometype Mono", monospace;
+}
+h1 {
+  font-family: "Sometype Mono", monospace;
+  font-size: 20px;
+}
+p {
+  font-family: "Sometype Mono", monospace;
+}
+#submit-button {
+  font-family: "Sometype Mono", monospace;
+
+  padding: 10px;
+  width: 40%;
+
+  font-weight: bold;
+  transition: background-color 0.3s;
+  font-family: "Sometype Mono", monospace;
+  letter-spacing: 2px;
+}
+
+#submit-button:hover {
+  background-color: black;
+  color: white;
+  letter-spacing: 5px;
+}
+.shop {
+  background-color: #f2cb90;
+}

@@ -20,49 +20,60 @@
         }
       }
     </style>
-  </style>
+
 </head>
  <body style="background-image: url('images/background-contact.png'); background-size: cover; background-repeat: no-repeat; font-family: 'Sometype Mono', monospace;">
-  
-      <section class="contact-info">
-    <div class="container">
-      <h1 class="mt-5">Contact Us</h1>
-      <p class = "fs-4 fw-medium">If you have any questions or need assistance with our beauty products, feel free to reach out to us. We're here to help.</p>
-      
-      <form>
-        <div class="mb-3">
-          <label for="name" class="form-label">Your Name</label>
-          <input type="text" class="form-control" id="name" required>
-        </div>
-        <div class="mb-3">
-          <label for="email" class="form-label">Email Address</label>
-          <input type="email" class="form-control" id="email" required>
-        </div>
-        <div class="mb-3">
-          <label for="message" class="form-label">Your Message</label>
-          <textarea class="form-control" id="message" rows="4" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+    <section class="contact-info">
+  <div class="container">
+    
+    <div class="mb-4 mt-5">
+      <h2>Office Address:</h2>
+      <p>123 Main Street</p>
+      <p> Lviv, Ukraine, 78009</p>
     </div>
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+   
+  </div>
+</section>
+  
+    <section class="contact-info">
+  <div class="container">
+    <h1 class="mt-5">Contact Us</h1>
+    <p class="fs-4 fw-medium">If you have any questions or need assistance with our beauty products, feel free to reach out to us. We're here to help.</p>
+
+    <form id="contactForm">
+      <div class="mb-3">
+        <label for="name" class="form-label">Your Name</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
+      <div class="mb-3">
+        <label for "email" class="form-label">Email Address</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Your Message</label>
+        <textarea class="form-control" id="message" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-light btn-lg">Submit</button>
+    </form>
+  </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script>
-  // Get references to the form and submit button
+ 
   const contactForm = document.getElementById('contactForm');
-  const submitButton = document.getElementById('submitBtn');
+  const submitButton = document.getElementById('submit');
 
-  // Add a submit event listener to the form
   contactForm.addEventListener('submit', function (e) {
-    e.preventDefault(); // Prevent the form from submitting normally
+    e.preventDefault(); 
 
-    // You can perform form validation here before showing the alert
-    // For simplicity, we'll show the alert directly
+ 
     alert('Thank you for your submission. We will contact you soon.');
 
-    // You can also reset the form after submission
+    
     contactForm.reset();
   });
 </script>
-  </body>
+</body>
 </html>

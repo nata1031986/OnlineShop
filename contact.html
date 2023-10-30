@@ -17,16 +17,29 @@
     @media (max-width: 768px) {
         body {
           background-size: contain; 
+          font-size: 17px;
         }
+        
+      }
+      a {
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 21px;
       }
     </style>
 
 </head>
  <body style="background-image: url('images/background-contact.png'); background-size: cover; background-repeat: no-repeat; font-family: 'Sometype Mono', monospace;">
-    
+     
   <section class="contact-info">
   <div class="container">
+    <div class = "text-center py-3">
+    <a href="index.html" title="Gateway to 🏠">Back to Homepage</a>
+    </div>
     <div class="mb-4 mt-5 py-2 fw-bolder">
+        
       <h2>Office Address:</h2>
       <br>
       <p>123 Main Street</p>
@@ -40,8 +53,8 @@
   
     <section class="contact-info">
   <div class="container py-2">
-    <h1 class="mt-5">Contact Us</h1>
-    <p class="fs-4 fw-medium">If you have any questions or need assistance with our beauty products, feel free to reach out to us. We're here to help.</p>
+    <h2 class="mt-5">Contact Us</h2>
+    <p class="fs-5 fw-medium">If you have any questions or need assistance with our beauty products, feel free to reach out to us. We're here to help.</p>
 
     <form id="contactForm">
       <div class="mb-3">
@@ -56,7 +69,7 @@
         <label for="message" class="form-label">Your Message</label>
         <textarea class="form-control" id="message" rows="4" required></textarea>
       </div>
-      <button type="submit" class="btn btn-light btn-lg" title = "ClICK ME! 👆">Submit</button>
+      <button type="submit" class="btn btn-light btn-lg fw-semibold" title = "ClICK ME! 👆">Submit</button>
     </form>
   </div>
 </section>

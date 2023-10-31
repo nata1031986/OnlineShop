@@ -158,3 +158,21 @@ p {
   background-color: #f2cb90;
    font-family: "Sometype Mono", monospace;
 }
+#MoreRecetpts {
+
+    background-color: #fde38b;
+    color: #000;
+    border: none;
+    padding:10px;
+    transition: background-color 0.3s; 
+    font-family: "Sometype Mono", monospace;
+    font-weight: bold;
+    border-radius: 15px;
+  }
+  
+  #MoreRecetpts:hover{
+    background-color: #cbf078;
+    color: #000;
+   
+  }
+  

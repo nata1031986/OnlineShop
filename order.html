@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Satisfy&family=Sometype+Mono:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+        body {
+            background-color: #f0e68c; 
+        }
+        .container {
+            background-color: #fff; 
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+ 
+      body {
+        background-color: #f0e68c;
+        font-family: "Sometype Mono", monospace;
+      }
+      .container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+     
+    </style>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="text-center fw-semibold text-md" style="font-size: 23px; font-weight: bold;">Place Your Order</h1>
+      <form>
+        <div class="form-group mt-3">
+          <label for="quantity">Quantity</label>
+          <input
+            type="number"
+            class="form-control"
+            id="quantity"
+            placeholder="Enter quantity"
+          />
+        </div>
+        <div class="form-group">
+          <label for="shippingAddress">Shipping Address</label>
+          <textarea
+            class="form-control"
+            id="shippingAddress"
+            rows="3"
+            placeholder="Enter shipping address"
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <label for="paymentMethod">Payment Method</label>
+          <select class="form-control" id="paymentMethod">
+            <option>PayPal</option>
+            <option>Credit Card</option>
+            <option>Cash on Delivery</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-secondary" id= "buyButton">Buy Now</button>
+      </form>
+    </div>
+    <div class = "text-center mt-5 text-decoration-none">
+      <a href="index.html" title="Gateway to 🏠" style = "color:black; font-weight:bold;">Back to Homepage</a>
+      </div>
+    </div>
+    <script>
+        
+        document.getElementById("buyButton").addEventListener("click", function() {
+            alert("Thank you for your order. It's on the way!🚚");
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

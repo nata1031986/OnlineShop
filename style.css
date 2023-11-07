@@ -31,17 +31,7 @@
   margin-right: -35px;
   font-family: "Sometype Mono", monospace;
 }
-.btn0 {
-  height: 40px;
-  width: 40%;
-  outline: none;
-  border: none;
-  background: #c3ab96;
-  color: #5e3b2b;
-  font-weight: bold;
-  border-radius: 60px;
-  font-family: "Sometype Mono", monospace;
-}
+
 .btn0:hover {
   background-color: #e9e2da;
 }
